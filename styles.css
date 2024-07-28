@@ -1,0 +1,505 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header Styles */
+.header {
+    background-color: #343a40;
+    padding: 15px 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f8d210;
+}
+
+.cart a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.cart a:hover {
+    color: #f8d210;
+}
+
+/* Hero Section Styles */
+.hero {
+    height: 70vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #000;
+}
+
+.hero .carousel-inner img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.hero .carousel-caption {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero-text .btn {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+/* Section Styles */
+.products,
+.discounts,
+.new-arrivals,
+.gallery,
+.testimonials,
+.about,
+.contact {
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Product Card Styles */
+.product-card,
+.discount-card,
+.new-arrival-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+}
+
+.product-card:hover,
+.discount-card:hover,
+.new-arrival-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img,
+.discount-card img,
+.new-arrival-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product-card h3,
+.discount-card h3,
+.new-arrival-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-card .price,
+.discount-card .price,
+.new-arrival-card .price {
+    font-size: 20px;
+    color: #f8d210;
+    margin-bottom: 20px;
+}
+
+/* Gallery Styles */
+.gallery img {
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonial Styles */
+blockquote {
+    border-left: 5px solid #f8d210;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+/* About & Contact Section Styles */
+.about,
+.contact {
+    padding: 50px 0;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .social-media {
+    display: flex;
+}
+
+.footer .social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footer .social-media a:hover {
+    color: #f8d210;
+}
+
+/* Effets uniques pour chaque section */
+.products {
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+.discounts {
+    animation: fadeInRight 1s ease-in-out;
+}
+
+.new-arrivals {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.gallery {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.testimonials {
+    animation: zoomIn 1s ease-in-out;
+}
+
+.about {
+    animation: slideInLeft 1s ease-in-out;
+}
+
+.contact {
+    animation: slideInRight 1s ease-in-out;
+}
+
+/* Custom Animations */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer .social-media {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    .hero .carousel-inner img {
+        height: 50vh;
+    }
+
+    .hero-text h2 {
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero-text .btn {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .product-card,
+    .discount-card,
+    .new-arrival-card {
+        padding: 15px;
+    }
+
+    .product-card h3,
+    .discount-card h3,
+    .new-arrival-card h3 {
+        font-size: 20px;
+    }
+
+    .product-card .price,
+    .discount-card .price,
+    .new-arrival-card .price {
+        font-size: 16px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer .social-media {
+        margin-top: 10px;
+    }
+
+    /* Resize images on smaller screens */
+    .product-card img,
+    .discount-card img,
+    .new-arrival-card img,
+    .gallery img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero {
+        height: 40vh;
+    }
+
+    .hero .carousel-inner img {
+        height: 40vh;
+    }
+
+    .hero-text h2 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .hero-text .btn {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .product-card,
+    .discount-card,
+    .new-arrival-card {
+        padding: 10px;
+    }
+
+    .product-card h3,
+    .discount-card h3,
+    .new-arrival-card h3 {
+        font-size: 18px;
+    }
+
+    .product-card .price,
+    .discount-card .price,
+    .new-arrival-card .price {
+        font-size: 14px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .social-media {
+        margin-top: 10px;
+    }
+
+    /* Hide gallery section on the smallest screens */
+    .gallery {
+        display: none;
+    }
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionHub</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>FashionHub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Produits</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section (Carousel) -->
+    <section class="hero">
+        <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#heroCarousel" data-slide-to="1"></li>
+                <li data-target="#heroCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://fordlafemme.com/wp-content/uploads/2018/11/fila-disruptor-II-review-2.jpg" class="d-block w-100" alt="Chaussures 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Découvrez nos nouvelles chaussures</h2>
+                        <p>Confort et style pour toutes les occasions</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/originals/51/3f/9f/513f9fabb599006489637c96463e240c.jpg" class="d-block w-100" alt="Chaussures 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Style et Élégance</h2>
+                        <p>Les chaussures parfaites pour chaque moment</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.copncop.com/img/cms/adidas-samba-og-cloud-white-copncop-detailled-2.jpg" class="d-block w-100" alt="Chaussures 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Confort Absolu</h2>
+                        <p>Marcher avec confiance et confort</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Précédent</span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Suivant</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" data-aos="fade-up">
+        <div class="container section-container">
+            <h2 class="section-title">Nos Produits</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://www.beachcafe.com/media/catalog/product/cache/a9e97f6c4fc73dd7ed0989bbb0ee6ce0/s/u/sundress-daria-dress-white.jpg" class="img-fluid" alt="Produit 1">
+                        <h3>Robe Élégante</h3>
+                        <p class="price">€75.00</p>
+                        <a href="#" class="btn btn-outline-primary">Ajouter au panier</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://i.pinimg.com/736x/dd/e1/e5/dde1e54ed4b61179fb591ff9e2c0f0c4.jpg" class="img-fluid" alt="Produit 2">
+                        <h3>Veste Mode</h3>
+                        <p class="price">€120.00</p>
+                        <a href="#" class="btn btn-outline-primary">Ajouter au panier</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="https://m2.jeans-industry.fr/384875-medium_listing/sac-a-main-en-cuir.jpg" class="img-fluid" alt="Produit 3">
+                        <h3>Accessoires de Mode</h3>
+                        <p class="price">€45.00</p>
+                        <a href="#" class="btn btn-outline-primary">Ajouter au panier</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discounts Section -->
+    <section class="discounts" data-aos="fade-up" style="background-color: #f0e68c;">
+        <div class="container section-container">
+            <h2 class="section-title">Réductions</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="discount-card">
+                        <img src="https://www.cdiscount.com/pdt2/2/7/7/1/700x700/mp62081277/rw/femme-robe-d-ete-mi-longue-a-bretelles-floral-robe.jpg" class="img-fluid" alt="Remise 1">
+                        <div class="discount-info">
+                            <h3>Remise de 20%</h3>
+                            <p>Sur toutes les robes d'été</p>
+                            <a href="#" class="btn btn-outline-primary">Voir l'offre</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="discount-card">
+                        <img src="https://ae01.alicdn.com/kf/Sebb837630cda41618091c2cfbd8847efg/Veste-longue-en-laine-pour-femme-coton-pais-manteau-chaud-rouge-noir-automne-hiver-nouveau-2022.jpg" class="img-fluid" alt="Remise 2">
+                        <div class="discount-info">
+                            <h3>30% de réduction</h3>
+                            <p>Sur les vestes automnales</p>
+                            <a href="#" class="btn btn-outline-primary">Voir l'offre</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="discount-card">
+                        <img src="https://charlie-paris.com/cdn/shop/collections/montre-femme-ajouree-squelette_354b11e4-d61c-4076-b078-665abb1ba1d0.jpg?v=1716459852&width=3200" class="img-fluid" alt="Remise 3">
+                        <div class="discount-info">
+                            <h3>50% de réduction</h3>
+                            <p>Sur les accessoires sélectionnés</p>
+                            <a href="#" class="btn btn-outline-primary">Voir l'offre</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals" data-aos="fade-up" style="background-color: #e6e6fa;">
+        <div class="container section-container">
+            <h2 class="section-title">Nouveautés</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="new-arrival-card">
+                        <img src="https://i.ebayimg.com/images/g/QRcAAOSwObJkV7nj/s-l1200.jpg" class="img-fluid" alt="Nouveauté 1">
+                        <div class="new-arrival-info">
+                            <h3>Collection Été 2024</h3>
+                            <p>Découvrez les dernières tendances pour cet été</p>
+                            <a href="#" class="btn btn-outline-primary">Découvrir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="new-arrival-card">
+                        <img src="https://images.chronocash.eu/catalog/2023/08/25/watch_169298129763971.jpeg" class="img-fluid" alt="Nouveauté 2">
+                        <div class="new-arrival-info">
+                            <h3>Accessoires Modernes</h3>
+                            <p>Élégance et modernité pour chaque occasion</p>
+                            <a href="#" class="btn btn-outline-primary">Découvrir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="new-arrival-card">
+                        <img src="https://images.asos-media.com/products/nike-training-defy-all-day-sportschuhe-in-wei/204186154-1-white?$n_640w$&wid=513&fit=constrain" class="img-fluid" alt="Nouveauté 3">
+                        <div class="new-arrival-info">
+                            <h3>Chaussures de Sport</h3>
+                            <p>Confort et style pour vos activités sportives</p>
+                            <a href="#" class="btn btn-outline-primary">Découvrir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" data-aos="fade-up" style="background-color: #f5f5dc;">
+        <div class="container section-container">
+            <h2 class="section-title">Galerie</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://img01.ztat.net/article/spp-media-p1/d7a51397dcb447758769ed6fd7f0285b/c06a88c49dc54b10a7e241ab0085962a.jpg?imwidth=762&filter=packshot" class="img-fluid article-photo" alt="Galerie 1">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://img01.ztat.net/article/spp-media-p1/970fc05c80ea408d97868b91763b1ca7/3cc49e5b19ea4e8d8cfab565099d90ce.jpg?imwidth=762&filter=packshot" class="img-fluid article-photo" alt="Galerie 2">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://img01.ztat.net/article/spp-media-p1/9a5a9bf0c65e3883a6d1c5cc74cd43a1/099e29f909e544aabef3a2486affb5b6.jpg?imwidth=1800" class="img-fluid article-photo" alt="Galerie 3">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://images.asos-media.com/products/puma-ca-pro-sneaker-in-grau-und-wei/204965136-1-greywhite?$n_640w$&wid=513&fit=constrain" class="img-fluid article-photo" alt="Galerie 4">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://images.asos-media.com/products/adidas-originals-campus-sneaker-im-stil-der-00er-jahre-in-wei-und-schwarz/203978808-1-white?$n_640w$&wid=513&fit=constrain" class="img-fluid article-photo" alt="Galerie 5">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://img01.ztat.net/article/spp-media-p1/a0ef3db16fb14ba6ad9ebb41e951eadf/446feb9bc79044b1bddef2c45aca5c7e.jpg?imwidth=762&filter=packshot" class="img-fluid article-photo" alt="Galerie 6">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://img01.ztat.net/article/spp-media-p1/a6f70c666ebb4a2987b277d92e6ebb5d/638a2e5eb13840e59a6594bd484cacd9.jpg?imwidth=762&filter=packshot" class="img-fluid article-photo" alt="Galerie 7">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://cms.brnstc.de/product_images/680x930_retina/cpro/media/images/product/24/2/100156742311000_0_1708503415618.jpg" class="img-fluid article-photo" alt="Galerie 8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" data-aos="fade-left" style="background-color: #ffe4e1;">
+        <div class="container section-container">
+            <h2 class="section-title">Témoignages</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <blockquote class="blockquote text-center">
+                            <p class="mb-0">J'adore FashionHub! Les produits sont de grande qualité et le service client est excellent.</p>
+                            <footer class="blockquote-footer">Marie Dupont</footer>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote text-center">
+                            <p class="mb-0">Une expérience d'achat incroyable. Je recommande fortement!</p>
+                            <footer class="blockquote-footer">Jean Martin</footer>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote text-center">
+                            <p class="mb-0">Les produits sont arrivés rapidement et en parfait état. Très satisfait!</p>
+                            <footer class="blockquote-footer">Emma Durand</footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Précédent</span>
+                </a>
+                <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Suivant</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" data-aos="fade-right" style="background-color: #e0e0e0;">
+        <div class="container section-container">
+            <h2 class="section-title">À propos de nous</h2>
+            <p>FashionHub est une boutique en ligne dédiée à vous offrir les meilleurs produits de mode au meilleur prix. Notre mission est de rendre la mode accessible à tous.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" data-aos="fade-up" style="background-color: #f5f5f5;">
+        <div class="container section-container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" style="background-color: #343a40;">
+        <div class="footer-container">
+            <p>&copy; 2024 FashionHub. Tous droits réservés.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS (Animate On Scroll)
+        AOS.init({
+            duration: 1200,
+        });
+
+        // Custom cursor
+        document.body.style.cursor = 'url(https://cdn.iconscout.com/icon/free/png-256/hand-pointer-cursor-1781500-1511434.png), auto';
+
+        // Hover effects for product cards
+        document.querySelectorAll('.product-card, .discount-card, .new-arrival-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'scale(1.05)';
+                card.style.transition = 'transform 0.3s';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'scale(1)';
+            });
+        });
+
+       
+    </script>
+</body>
+
+</html>
