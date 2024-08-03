@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "category": "chemises",
+        "name": "Chemise Élégante",
+        "price": 50,
+        "sizes": ["S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "category": "chemises",
+        "name": "Chemise Casual",
+        "price": 60,
+        "sizes": ["M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 3,
+        "category": "chemises",
+        "name": "Chemise Formelle",
+        "price": 70,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 4,
+        "category": "chemises",
+        "name": "Chemise Décontractée",
+        "price": 45,
+        "sizes": ["XS", "S", "M"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 5,
+        "category": "chemises",
+        "name": "Chemise Rayée",
+        "price": 55,
+        "sizes": ["M", "L", "XL", "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 6,
+        "category": "chemises",
+        "name": "Chemise à Carreaux",
+        "price": 65,
+        "sizes": ["S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 7,
+        "category": "chemises",
+        "name": "Chemise en Lin",
+        "price": 75,
+        "sizes": ["L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 8,
+        "category": "chemises",
+        "name": "Chemise en Jean",
+        "price": 85,
+        "sizes": ["M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 9,
+        "category": "chemises",
+        "name": "Chemise Slim Fit",
+        "price": 95,
+        "sizes": ["S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 10,
+        "category": "chemises",
+        "name": "Chemise à Motifs",
+        "price": 105,
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 11,
+        "category": "pantalons",
+        "name": "Pantalon Slim",
+        "price": 70,
+        "sizes": ["XS", "S", "M"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 12,
+        "category": "pantalons",
+        "name": "Pantalon Chino",
+        "price": 80,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 13,
+        "category": "pantalons",
+        "name": "Pantalon Cargo",
+        "price": 90,
+        "sizes": ["M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 14,
+        "category": "pantalons",
+        "name": "Pantalon Décontracté",
+        "price": 60,
+        "sizes": ["XS", "S", "M"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 15,
+        "category": "pantalons",
+        "name": "Pantalon de Costume",
+        "price": 100,
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 16,
+        "category": "pantalons",
+        "name": "Jeans Skinny",
+        "price": 110,
+        "sizes": ["S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 17,
+        "category": "pantalons",
+        "name": "Jeans Droit",
+        "price": 120,
+        "sizes": ["M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 18,
+        "category": "pantalons",
+        "name": "Pantalon en Lin",
+        "price": 130,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 19,
+        "category": "pantalons",
+        "name": "Pantalon de Jogging",
+        "price": 50,
+        "sizes": ["XS", "S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 20,
+        "category": "pantalons",
+        "name": "Pantalon Palazzo",
+        "price": 140,
+        "sizes": ["S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 21,
+        "category": "chaussures",
+        "name": "Chaussures de Ville",
+        "price": 150,
+        "sizes": [39, 40, 41, 42, 43],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 22,
+        "category": "chaussures",
+        "name": "Baskets Mode",
+        "price": 160,
+        "sizes": [40, 41, 42, 43, 44],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 23,
+        "category": "chaussures",
+        "name": "Chaussures de Sport",
+        "price": 170,
+        "sizes": [39, 41, 43, 45],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 24,
+        "category": "chaussures",
+        "name": "Mocassins",
+        "price": 180,
+        "sizes": [40, 42, 44, 46],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 25,
+        "category": "chaussures",
+        "name": "Sandales",
+        "price": 60,
+        "sizes": [39, 40, 41, 42, 43, 44],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 26,
+        "category": "chaussures",
+        "name": "Chaussures en Cuir",
+        "price": 190,
+        "sizes": [39, 40, 41, 42, 43, 44, 45],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 27,
+        "category": "chaussures",
+        "name": "Chaussures Décontractées",
+        "price": 100,
+        "sizes": [40, 41, 42, 43, 44],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 28,
+        "category": "chaussures",
+        "name": "Chaussures de Randonnée",
+        "price": 200,
+        "sizes": [39, 41, 42, 43, 45],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 29,
+        "category": "chaussures",
+        "name": "Espadrilles",
+        "price": 90,
+        "sizes": [39, 40, 41, 42, 43],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 30,
+        "category": "chaussures",
+        "name": "Chaussures de Sécurité",
+        "price": 110,
+        "sizes": [40, 41, 42, 43, 44, 45, 46],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 31,
+        "category": "tshirt",
+        "name": "T-shirt Basique",
+        "price": 20,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 32,
+        "category": "tshirt",
+        "name": "T-shirt Graphique",
+        "price": 30,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 33,
+        "category": "tshirt",
+        "name": "T-shirt Oversize",
+        "price": 25,
+        "sizes": ["M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 34,
+        "category": "tshirt",
+        "name": "T-shirt à Rayures",
+        "price": 35,
+        "sizes": [ "L", "XL", "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 35,
+        "category": "tshirt",
+        "name": "T-shirt Col V",
+        "price": 40,
+        "sizes": ["XS", "S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 36,
+        "category": "tshirt",
+        "name": "T-shirt Col Rond",
+        "price": 28,
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 37,
+        "category": "tshirt",
+        "name": "T-shirt Vintage",
+        "price": 45,
+        "sizes": ["M", "L", "XL", "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 38,
+        "category": "tshirt",
+        "name": "T-shirt Sport",
+        "price": 50,
+        "sizes": ["S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 39,
+        "category": "tshirt",
+        "name": "T-shirt Design",
+        "price": 60,
+        "sizes": ["XS", "S"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 40,
+        "category": "tshirt",
+        "name": "T-shirt Polo",
+        "price": 70,
+        "sizes": ["S", "M", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 41,
+        "category": "hoodies",
+        "name": "Hoodie Basique",
+        "price": 50,
+        "sizes": [ "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 42,
+        "category": "hoodies",
+        "name": "Hoodie Graphique",
+        "price": 60,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 43,
+        "category": "hoodies",
+        "name": "Hoodie Oversize",
+        "price": 70,
+        "sizes": ["M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 44,
+        "category": "hoodies",
+        "name": "Hoodie à Poches",
+        "price": 80,
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 45,
+        "category": "hoodies",
+        "name": "Hoodie Zippé",
+        "price": 90,
+        "sizes": ["XS", "S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 46,
+        "category": "hoodies",
+        "name": "Hoodie à Capuche",
+        "price": 100,
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 47,
+        "category": "hoodies",
+        "name": "Hoodie Sport",
+        "price": 110,
+        "sizes": ["M", "L", "XL", "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 48,
+        "category": "hoodies",
+        "name": "Hoodie Doublé",
+        "price": 120,
+        "sizes": ["S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 49,
+        "category": "hoodies",
+        "name": "Hoodie Design",
+        "price": 130,
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 50,
+        "category": "hoodies",
+        "name": "Hoodie Vintage",
+        "price": 140,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    }
+]

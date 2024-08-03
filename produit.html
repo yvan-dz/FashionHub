@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionHub - Produits</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" />
+    <link rel="stylesheet" href="produit.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>FashionHub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="produit.html">Produits</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="filter-sidebar">
+                    <h3>Filtrer par</h3>
+                    <div class="filter-group">
+                        <h5>Catégorie</h5>
+                        <ul class="category-list">
+                            <li><a href="#" class="category-filter" data-category="chemises">Chemises</a></li>
+                            <li><a href="#" class="category-filter" data-category="pantalons">Pantalons</a></li>
+                            <li><a href="#" class="category-filter" data-category="chaussures">Chaussures</a></li>
+                            <li><a href="#" class="category-filter" data-category="tshirt">T-shirts</a></li>
+                            <li><a href="#" class="category-filter" data-category="hoodies">Hoodies</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-group">
+                        <h5 id="priceHeader">Prix</h5>
+                        <input type="range" id="priceRange" min="0" max="200" value="200" step="10" class="form-control-range">
+                        <p id="priceValue">0€ - 200€</p>
+                    </div>
+                    <div class="filter-group">
+                        <h5>Taille</h5>
+                        <div id="sizeFilter">
+                            <ul class="size-list">
+                                <li><input type="checkbox" class="size-filter" data-size="XS"> XS</li>
+                                <li><input type="checkbox" class="size-filter" data-size="S"> S</li>
+                                <li><input type="checkbox" class="size-filter" data-size="M"> M</li>
+                                <li><input type="checkbox" class="size-filter" data-size="L"> L</li>
+                                <li><input type="checkbox" class="size-filter" data-size="XL"> XL</li>
+                                <li><input type="checkbox" class="size-filter" data-size="XXL"> XXL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button id="clearFilter" class="btn btn-success mt-3">Effacer les filtres</button>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row product-list">
+                    <!-- Products will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="footer-container">
+            <p>&copy; 2024 FashionHub. Tous droits réservés.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="produit.js"></script>
+</body>
+
+</html>

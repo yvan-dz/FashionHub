@@ -1,0 +1,42 @@
+{
+    "pantalons": [
+        "https://picture.bestsecret.com/static/images/2690/image_32959190_81_620x757_3.jpg",
+        "https://picture.bestsecret.com/static/images/2911/image_40036415_000056384_620x757_3.jpg",
+        "https://via.placeholder.com/300x400?text=Pant3",
+        "https://via.placeholder.com/300x400?text=Pant4",
+        "https://via.placeholder.com/300x400?text=Pant5",
+        "https://via.placeholder.com/300x400?text=Pant6"
+    ],
+    "chaussures": [
+        "https://via.placeholder.com/300x400?text=Shoe1",
+        "https://via.placeholder.com/300x400?text=Shoe2",
+        "https://via.placeholder.com/300x400?text=Shoe3",
+        "https://via.placeholder.com/300x400?text=Shoe4",
+        "https://via.placeholder.com/300x400?text=Shoe5",
+        "https://via.placeholder.com/300x400?text=Shoe6"
+    ],
+    "t-shirts": [
+        "https://via.placeholder.com/300x400?text=Tshirt1",
+        "https://via.placeholder.com/300x400?text=Tshirt2",
+        "https://via.placeholder.com/300x400?text=Tshirt3",
+        "https://via.placeholder.com/300x400?text=Tshirt4",
+        "https://via.placeholder.com/300x400?text=Tshirt5",
+        "https://via.placeholder.com/300x400?text=Tshirt6"
+    ],
+    "chemises": [
+        "https://via.placeholder.com/300x400?text=Chemise1",
+        "https://via.placeholder.com/300x400?text=Chemise2",
+        "https://via.placeholder.com/300x400?text=Chemise3",
+        "https://via.placeholder.com/300x400?text=Chemise4",
+        "https://via.placeholder.com/300x400?text=Chemise5",
+        "https://via.placeholder.com/300x400?text=Chemise6"
+    ],
+    "hoodies": [
+        "https://via.placeholder.com/300x400?text=Hoodie1",
+        "https://via.placeholder.com/300x400?text=Hoodie2",
+        "https://via.placeholder.com/300x400?text=Hoodie3",
+        "https://via.placeholder.com/300x400?text=Hoodie4",
+        "https://via.placeholder.com/300x400?text=Hoodie5",
+        "https://via.placeholder.com/300x400?text=Hoodie6"
+    ]
+}
