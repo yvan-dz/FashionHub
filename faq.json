@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Quels sont les délais de livraison ?",
+        "answer": "Les délais de livraison sont généralement de 3 à 5 jours ouvrables."
+    },
+    {
+        "question": "Comment puis-je suivre ma commande ?",
+        "answer": "Vous pouvez suivre votre commande en utilisant le numéro de suivi envoyé à votre adresse e-mail."
+    },
+    {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons les cartes de crédit, PayPal et les virements bancaires."
+    },
+    {
+        "question": "Comment puis-je retourner un article ?",
+        "answer": "Vous pouvez retourner un article en contactant notre service client dans les 14 jours suivant la réception de votre commande."
+    },
+    {
+        "question": "Offrez-vous des remises pour les étudiants ?",
+        "answer": "Oui, nous offrons des remises spéciales pour les étudiants. Veuillez contacter notre service client pour plus de détails."
+    }
+]

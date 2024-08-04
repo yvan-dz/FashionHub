@@ -53,9 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 });
 
-// Initialize Bootstrap carousel
-$('.carousel').carousel({
-    interval: 3000,
-    pause: 'hover',
-    wrap: true
-});
+
+
+
+

@@ -1,0 +1,360 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header Styles */
+.header {
+    background-color: #17a2b8;
+    padding: 15px 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #022f60;
+}
+
+.cart a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.cart a:hover {
+    color: #022f60;
+}
+
+/* Section Styles */
+.section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Presentation Section Styles */
+.presentation {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.presentation .vendeur-photo {
+    width: auto;
+    max-width: 350px;
+    max-height: 350px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.presentation h3 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.presentation p {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Advantages Section Styles */
+.advantages {
+    padding: 50px 0;
+}
+
+.advantages .advantage-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.advantages .advantage-card i {
+    color: #17a2b8;
+    margin-bottom: 15px;
+}
+
+.advantages .advantage-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.advantages .advantage-card p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    padding: 50px 0;
+}
+
+.testimonials .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+blockquote {
+    border-left: 5px solid #17a2b8;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #6c757d;
+}
+
+blockquote-footer {
+    font-size: 16px;
+    color: #343a40;
+}
+
+/* Social Media Section Styles */
+.social-media {
+    padding: 50px 0;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.social-media .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #343a40;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #17a2b8;
+}
+
+/* Contact Form Section Styles */
+.contact-form {
+    padding: 50px 0;
+}
+
+.contact-form .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group label {
+    font-size: 16px;
+    color: #343a40;
+}
+
+.contact-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact-form .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #17a2b8;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .cart {
+        margin-top: 10px;
+    }
+
+    .advantages .advantage-card,
+    .testimonials blockquote {
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 5px 10px; /* Adjust spacing between links */
+    }
+
+    .logo h1 {
+        font-size: 24px; /* Reduce logo font size */
+        margin-bottom: 15%;
+    }
+
+    .header {
+        padding: 10px 0; /* Reduce header padding */
+        padding-bottom: 5%;
+    }
+
+    .logo h1 {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .presentation h3 {
+        font-size: 24px;
+    }
+
+    .presentation p {
+        font-size: 16px;
+    }
+
+    .advantages .advantage-card {
+        padding: 15px;
+    }
+
+    .advantages .advantage-card h3 {
+        font-size: 20px;
+    }
+
+    .advantages .advantage-card p {
+        font-size: 14px;
+    }
+
+    blockquote {
+        font-size: 16px;
+    }
+
+    blockquote-footer {
+        font-size: 14px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+    }
+
+    .contact-form .section-title {
+        font-size: 24px;
+    }
+
+    .contact-form .form-group label {
+        font-size: 14px;
+    }
+
+    .contact-form .form-control {
+        font-size: 14px;
+    }
+
+    .contact-form .btn {
+        font-size: 14px;
+    }
+}
