@@ -268,7 +268,7 @@
         "category": "tshirt",
         "name": "T-shirt à Rayures",
         "price": 35,
-        "sizes": [ "L", "XL", "XXL"],
+        "sizes": ["L", "XL", "XXL"],
         "image": "https://via.placeholder.com/150"
     },
     {
@@ -324,7 +324,7 @@
         "category": "hoodies",
         "name": "Hoodie Basique",
         "price": 50,
-        "sizes": [ "XXL"],
+        "sizes": ["XXL"],
         "image": "https://via.placeholder.com/150"
     },
     {
@@ -397,6 +397,49 @@
         "name": "Hoodie Vintage",
         "price": 140,
         "sizes": ["S", "M", "L", "XL"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 51,
+        "category": "reductions",
+        "name": "Chemise Élégante - Réduction",
+        "price": 40,
+        "oldPrice": 50,
+        "sizes": [],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 52,
+        "category": "reductions",
+        "name": "Pantalon Chino - Réduction",
+        "price": 60,
+        "oldPrice": 80,
+        "sizes": [],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 53,
+        "category": "reductions",
+        "name": "Baskets Mode - Réduction",
+        "price": 120,
+        "oldPrice": 160,
+        "sizes": [],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 54,
+        "category": "nouveautes",
+        "name": "T-shirt Design - Nouveauté",
+        "price": 60,
+        "sizes": ["XS", "S", "M", "L"],
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 55,
+        "category": "nouveautes",
+        "name": "Hoodie Sport - Nouveauté",
+        "price": 110,
+        "sizes": ["M", "L", "XL", "XXL"],
         "image": "https://via.placeholder.com/150"
     }
 ]

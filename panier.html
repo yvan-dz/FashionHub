@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionHub - Panier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/panier.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>FashionHub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="produit.html">Produits</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="panier.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cart Section -->
+    <div class="container mt-5">
+        <h2 class="section-title">Votre Panier</h2>
+        <div class="cart-message">Voici les articles que vous avez sélectionnés :</div>
+        <div class="cart-items">
+            <!-- Example Product 1 -->
+            <div class="cart-item" data-aos="fade-up">
+                <img src="https://www.beachcafe.com/media/catalog/product/cache/a9e97f6c4fc73dd7ed0989bbb0ee6ce0/s/u/sundress-daria-dress-white.jpg" alt="Produit 1">
+                <div class="item-details">
+                    <h3>Robe Élégante</h3>
+                    <p class="price">€75.00</p>
+                    <div class="quantity">
+                        <button class="btn btn-light">-</button>
+                        <span>1</span>
+                        <button class="btn btn-light">+</button>
+                    </div>
+                    <button class="btn btn-danger remove-item">Retirer</button>
+                </div>
+            </div>
+            <!-- Example Product 2 -->
+            <div class="cart-item" data-aos="fade-up">
+                <img src="https://i.pinimg.com/736x/dd/e1/e5/dde1e54ed4b61179fb591ff9e2c0f0c4.jpg" alt="Produit 2">
+                <div class="item-details">
+                    <h3>Veste Mode</h3>
+                    <p class="price">€120.00</p>
+                    <div class="quantity">
+                        <button class="btn btn-light">-</button>
+                        <span>1</span>
+                        <button class="btn btn-light">+</button>
+                    </div>
+                    <button class="btn btn-danger remove-item">Retirer</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <h3>Total : <span class="total-price">€195.00</span></h3>
+            <button class="btn btn-success checkout">Passer à la caisse</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="footer-container">
+            <p>&copy; 2024 FashionHub. Tous droits réservés.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/panier.js"></script>
+</body>
+
+</html>

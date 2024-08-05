@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let galleryData = {};
 
     // Fetch gallery data
-    fetch('galerie.json')
+    fetch('assets/js/galerie.json')
         .then(response => response.json())
         .then(data => {
             galleryData = data;

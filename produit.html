@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" />
-    <link rel="stylesheet" href="produit.css">
+    <link rel="stylesheet" href="assets/css/produit.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                 </ul>
             </nav>
             <div class="cart">
-                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="panier.html"><i class="fas fa-shopping-cart"></i></a>
             </div>
         </div>
     </header>
@@ -44,11 +44,13 @@
                     <div class="filter-group">
                         <h5>Catégorie</h5>
                         <ul class="category-list">
-                            <li><a href="#" class="category-filter" data-category="chemises">Chemises</a></li>
-                            <li><a href="#" class="category-filter" data-category="pantalons">Pantalons</a></li>
-                            <li><a href="#" class="category-filter" data-category="chaussures">Chaussures</a></li>
-                            <li><a href="#" class="category-filter" data-category="tshirt">T-shirts</a></li>
-                            <li><a href="#" class="category-filter" data-category="hoodies">Hoodies</a></li>
+                            <li><a href="#" class="category-filter" data-category="chemises" data-message="Découvrez notre large sélection de chemises élégantes et confortables.">Chemises</a></li>
+                            <li><a href="#" class="category-filter" data-category="pantalons" data-message="Nos pantalons sont conçus pour le confort et le style, adaptés à toutes les occasions.">Pantalons</a></li>
+                            <li><a href="#" class="category-filter" data-category="chaussures" data-message="Trouvez les chaussures parfaites pour compléter votre look.">Chaussures</a></li>
+                            <li><a href="#" class="category-filter" data-category="tshirt" data-message="Nos t-shirts sont faits pour le confort quotidien avec un style unique.">T-shirts</a></li>
+                            <li><a href="#" class="category-filter" data-category="hoodies" data-message="Restez au chaud et à la mode avec nos hoodies tendance.">Hoodies</a></li>
+                            <li><a href="#" class="category-filter" data-category="reductions" data-message="Profitez de nos réductions exceptionnelles sur une sélection de produits." style="color: red;">Réductions</a></li>
+                            <li><a href="#" class="category-filter" data-category="nouveautes" data-message="Découvrez les dernières nouveautés de notre collection.">Nouveautés</a></li>
                         </ul>
                     </div>
                     <div class="filter-group">
@@ -73,6 +75,9 @@
                 </div>
             </div>
             <div class="col-md-9">
+                <div id="categoryMessage" class="category-message">
+                    <!-- Category message will be displayed here -->
+                </div>
                 <div class="row product-list">
                     <!-- Products will be displayed here -->
                 </div>
@@ -99,7 +104,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script src="produit.js"></script>
+    <script src="assets/js/produit.js"></script>
 </body>
 
 </html>

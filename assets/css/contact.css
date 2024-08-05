@@ -22,6 +22,13 @@ body {
     flex-wrap: wrap;
 }
 
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .logo h1 {
     margin: 0;
     font-family: 'Playfair Display', serif;
@@ -29,16 +36,23 @@ body {
     font-size: 32px;
 }
 
+nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -52,6 +66,13 @@ nav ul li a:hover {
     color: #022f60;
 }
 
+.cart {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .cart a {
     text-decoration: none;
     color: #fff;
@@ -62,7 +83,6 @@ nav ul li a:hover {
 .cart a:hover {
     color: #022f60;
 }
-
 /* Section Styles */
 .section-title {
     font-size: 32px;

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('faq.json')
+    fetch('assets/js/faq.json')
         .then(response => response.json())
         .then(data => {
             const faqs = data;

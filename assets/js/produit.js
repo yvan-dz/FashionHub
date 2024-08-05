@@ -14,21 +14,44 @@ document.addEventListener("DOMContentLoaded", function() {
     const sizeFilter = document.getElementById('sizeFilter');
     const clearFilter = document.getElementById('clearFilter');
     const productList = document.querySelector('.product-list');
+    const categoryMessage = document.getElementById('categoryMessage');
+    const popupOverlay = document.createElement('div');
+    popupOverlay.classList.add('popup-overlay');
+    document.body.appendChild(popupOverlay);
+
+    const popup = document.createElement('div');
+    popup.classList.add('popup');
+    popup.innerHTML = `
+        <p>Ceci n'est encore qu'une page de présentation. Pour des fonctionnalités et modifications selon vos besoins, veuillez contacter @yvan.dzefak sur Instagram. 🤗</p>
+        <button class="close-btn">Fermer</button>
+    `;
+    popupOverlay.appendChild(popup);
+
+    const closeBtn = popup.querySelector('.close-btn');
+    closeBtn.addEventListener('click', () => {
+        popupOverlay.classList.remove('show');
+    });
+
     let products = [];
 
     // Fetch products from produit.json
-    fetch('produit.json')
+    fetch('assets/js/produit.json')
         .then(response => response.json())
         .then(data => {
             products = data;
             displayProducts('chemises');
             populateSizeFilter('chemises');
+            displayCategoryMessage('Découvrez notre large sélection de chemises élégantes et confortables.');
         });
 
     // Populate size filter based on selected category
     function populateSizeFilter(category) {
         sizeFilter.innerHTML = '';
-        if (category === 'chaussures') {
+        if (category === 'reductions' || category === 'nouveautes') {
+            const sizeOption = document.createElement('div');
+            sizeOption.innerHTML = '<p>Filtrer par taille impossible pour ces catégories.</p>';
+            sizeFilter.appendChild(sizeOption);
+        } else if (category === 'chaussures') {
             for (let size = 39; size <= 46; size++) {
                 const sizeOption = document.createElement('div');
                 sizeOption.innerHTML = `<input type="checkbox" value="${size}" class="size-filter"> ${size}`;
@@ -59,10 +82,12 @@ document.addEventListener("DOMContentLoaded", function() {
         filter.addEventListener('click', (e) => {
             e.preventDefault();
             const category = filter.dataset.category;
+            const message = filter.dataset.message;
             populateSizeFilter(category);
             productList.style.opacity = 0;
             setTimeout(() => {
                 displayProducts(category);
+                displayCategoryMessage(message);
                 productList.style.opacity = 1;
             }, 300);
         });
@@ -110,9 +135,16 @@ document.addEventListener("DOMContentLoaded", function() {
             productCard.innerHTML = `
                 <img src="${product.image}" alt="${product.name}">
                 <h3>${product.name}</h3>
+                ${product.oldPrice ? `<p class="old-price">${product.oldPrice}€</p>` : ''}
                 <p class="price">${product.price}€</p>
                 <button class="btn btn-outline-primary">Ajouter au panier</button>
             `;
+            if (category === 'reductions') {
+                productCard.classList.add('reductions');
+            }
+            productCard.querySelector('button').addEventListener('click', () => {
+                popupOverlay.classList.add('show');
+            });
             productList.appendChild(productCard);
             setTimeout(() => {
                 productCard.style.opacity = 1;
@@ -140,6 +172,7 @@ document.addEventListener("DOMContentLoaded", function() {
         productList.style.opacity = 0;
         setTimeout(() => {
             displayProducts('chemises');
+            displayCategoryMessage('Découvrez notre large sélection de chemises élégantes et confortables.');
             productList.style.opacity = 1;
         }, 300);
     });
@@ -161,5 +194,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 product.style.display = 'none';
             }
         });
+    }
+
+    // Display category message
+    function displayCategoryMessage(message) {
+        categoryMessage.textContent = message;
     }
 });
